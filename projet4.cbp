@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projet4" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projet4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projet4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Batiment.cpp" />
+		<Unit filename="Batiment.h" />
+		<Unit filename="Ecole.cpp" />
+		<Unit filename="Ecole.h" />
+		<Unit filename="Maison.cpp" />
+		<Unit filename="Maison.h" />
+		<Unit filename="Parc.cpp" />
+		<Unit filename="Parc.h" />
+		<Unit filename="Simulation.cpp" />
+		<Unit filename="Simulation.h" />
+		<Unit filename="Stade.cpp" />
+		<Unit filename="Stade.h" />
+		<Unit filename="Usine.cpp" />
+		<Unit filename="Usine.h" />
+		<Unit filename="Ville.cpp" />
+		<Unit filename="Ville.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="structures.cpp" />
+		<Unit filename="structures.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
